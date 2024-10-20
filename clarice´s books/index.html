@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clarice's Books</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+      <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                 <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Biografia</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Análise Psicológica</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Reflexões</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Metalinguagem</a>
+                    </li>
+                </ul>
+               <img src="img/Logo.svg" alt="Logo da Clarice" class="container__imagem">
+            </div>
+            <div class="container">
+               <a href="#"><img src="img/Favoritos.svg" alt="Menu favoritos" class="container__imagem"></a>
+               <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+               <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+            </div>
+        </header>
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+            <p class="banner__texto">Busque os livros que te interesse!</p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">LEITURAS QUE TE PRENDEM DO INÍCIO AO FIM</h2>
+            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/laços de familia.jpeg" alt="Livro"></div>
+      <div class="swiper-slide"><img src="img/a paixao segundo gh.jpeg" alt="Livro"></div>
+      <div class="swiper-slide"><img src="img/perto do coracao selvagem.jpeg" alt="Livro"></div>
+      <div class="swiper-slide"><img src="img/legiao estrangeira.jpeg" alt="Livro"></div>
+      <div class="swiper-slide"><img src="img/agua viva.jpeg" alt="Livro"></div>
+      <div class="swiper-slide"><img src="img/a hora da estrela.jpeg" alt="Livro"></div>
+      ...
+    </div>
+   
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+<div class="card">
+    <!--1º linha-->
+    <div class="card__descricao">
+        <!--1º coluna-->
+        <div class="descricao">
+            <h3 class="descricao__titulo">Talvez você também se interesse por..</h3>
+            <h2 class="descricao__titulo-livro">Box de livros da Clarice Lispector</h2>
+            <p class="descricao__texto">Este box é uma homenagem à obra da renomada escritora brasileira Clarice Lispector, famosa por sua prosa introspectiva e inovadora. Composto por 18 volumes, cada um apresenta uma capa elegante, muitas vezes ilustrada com designs que evocam a sensibilidade e a profundidade de sua escrita.
+                Os livros incluem títulos icônicos como A Hora da Estrela, Perto do Coração Selvagem, e A Paixão segundo G.H., entre outros, proporcionando uma imersão no universo psicológico e emocional de Lispector. As edições são acompanhadas de notas e introduções que contextualizam a obra, enriquecendo a experiência de leitura.
+                O box é ideal tanto para novos leitores quanto para admiradores de longa data, sendo uma peça de coleção perfeita para quem aprecia a literatura brasileira. Sua apresentação sofisticada torna-o um presente excepcional e uma adição valiosa a qualquer biblioteca.</p>
+        </div>
+        <!--2º coluna-->
+        <img src="img/clarice.jpeg" class="descricao__imagem">
+    </div>
+
+    <!--2º linha-->
+    <div class="card__botoes">
+        <!--1º coluna-->
+        <ul class="botoes">
+            <li class="botoes__item"><img src="img/Favoritos.svg" alt="favoritos"></li>
+            <li class="botoes__item"><img src="img/Compras.svg" alt="adicionar no carrinho"></li>
+        </ul>
+        <!--2º coluna-->
+        <a href="#" class="botoes__ancora">Saiba mais</a>
+    </div>
+</div>
+
+<section class="carrossel">
+    <h2 class="carrossel__titulo">SUGESTÕES DE LEITURA</h2>
+<div class="swiper">
+    <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/legiao estrangeira.jpeg" alt="Livro"></div>
+      <div class="swiper-slide"><img src="img/agua viva.jpeg" alt="Livro"></div>
+      <div class="swiper-slide"><img src="img/a hora da estrela.jpeg" alt="Livro"></div>
+      <div class="swiper-slide"><img src="img/a paixao segundo gh.jpeg" alt="Livro"></div>
+      <div class="swiper-slide"><img src="img/laços de familia.jpeg" alt="Livro"></div>
+      <div class="swiper-slide"><img src="img/perto do coracao selvagem.jpeg" alt="Livro"></div>
+      ...
+    </div>
+   
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+<div class="card">
+    <!--1º linha-->
+    <div class="card__descricao">
+        <!--1º coluna-->
+        <div class="descricao">
+            <h3 class="descricao__titulo">Conheça sobre a autora!</h3>
+            <h2 class="descricao__titulo-livro">A maior escritora do Modernismo</h2>
+            <p class="descricao__texto">Clarice Lispector (1920-1977) foi uma das mais importantes escritoras brasileiras do século XX. 
+                Nascida na Ucrânia, sua família emigrou para o Brasil quando ela ainda era criança, estabelecendo-se em Pernambuco. 
+                Formou-se em Direito no Rio de Janeiro, mas logo enveredou pela literatura.
+                Seu romance de estreia, "Perto do Coração Selvagem" (1943), revolucionou a literatura brasileira por sua linguagem introspectiva e experimental. 
+                Ao longo de sua carreira, escreveu romances, contos e crônicas, sendo conhecida por explorar temas existenciais, o feminino e as complexidades da mente humana. 
+                Obras como "A Paixão Segundo G.H." (1964) e "A Hora da Estrela" (1977) são alguns de seus livros mais conhecidos.
+                Clarice é amplamente reconhecida por seu estilo poético, suas reflexões filosóficas profundas e sua habilidade de mergulhar nas emoções e pensamentos de seus personagens. 
+                Morreu em 1977, no Rio de Janeiro, deixando um legado literário imenso e uma legião de admiradores.
+                Ela escreveu obras que exploram as emoções e a existência humana de forma profunda e sensível. 
+                Clarice é considerada uma das maiores vozes da literatura brasileira, com livros que continuam a influenciar leitores e escritores ao redor do mundo.</p>
+        </div>
+        <!--2º coluna-->
+        <img src="img/clarice 2.png" class="descricao__imagem">
+    </div>
+
+    <!--2º linha-->
+    <div class="card__botoes">
+        <!--1º coluna-->
+        <ul class="botoes">
+            <li class="botoes__item"><img src="img/Favoritos.svg" alt="favoritos"></li>
+            <li class="botoes__item"><img src="img/Compras.svg" alt="adicionar no carrinho"></li>
+        </ul>
+        <!--2º coluna-->
+        <a href="#" class="botoes__ancora">Saiba mais</a>
+    </div>
+</div>
+  </div>
+        </section>
+
+        <section class="tópicos">
+            <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+             <ul class="tópicos__lista">
+                 <li class="tópicos__item">
+                       <a href="#" class="tópicos__link">Clarice Lispector</a>
+                 </li>
+                 <li class="tópicos__item">
+                       <a href="#" class="tópicos__link">Romance</a>
+                 </li>
+                 </li>
+                 <li class="tópicos__item">
+                       <a href="#" class="tópicos__link">Resenhas</a>
+                 </li>
+                 <li class="tópicos__item">
+                       <a href="#" class="tópicos__link">Livros</a>
+                 </li>
+                 <li class="tópicos__item">
+                       <a href="#" class="tópicos__link">Opiniões</a>
+                 </li>
+                 <li class="tópicos__item">
+                       <a href="#" class="tópicos__link">Autores semelhantes</a>
+                 </li>
+                 <li class="tópicos__item">
+                       <a href="#" class="tópicos__link">Biografia</a>
+                 </li>
+             </ul>
+          </section>
+
+          <section class="contato">
+            <h2 class="contato__titulo">FIQUE POR DENTRO DA NOVIDADES!</h2>
+            <p class="contato__texto">Cadastre e receba todos os avisos importantes do nosso site</p>
+            <input  type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+          </section>
+
+<hr/>
+<footer class="rodape">
+    <h2 class="rodape__titulo">Grupo Clarice</h2>
+</footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+  spaceBetween: 10,
+  slidesPerView: 3,
+  pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+});
+        </script>
+    </body>
+</html>

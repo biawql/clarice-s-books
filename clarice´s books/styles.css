@@ -1,0 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #F4EDE6;
+    --bege: #f3deb9;
+    --cor-da-fonte-menu: #3D3D3D;
+    --cor-da-fonte-pesquisa: white;
+    --degrade: linear-gradient(135deg, #F2D7A7, #f8d5a1, #ffd16f);
+    --fonte-principal: "Noto Sans";
+    --vermelho: #8C4252;
+    --branco: white;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
